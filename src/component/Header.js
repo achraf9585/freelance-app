@@ -1,9 +1,8 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 const Header = () => {
   return (
   <>
- <div class="hero">
      
      <div data-collapse="medium" data-animation="default" data-duration="400" data-w-id="78fd20c4-2009-a6a3-7378-0df69d2dbd82" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
        <div class="container-navigation grid w-container">
@@ -12,9 +11,9 @@ const Header = () => {
          </a>
          <div id="w-node-_78fd20c4-2009-a6a3-7378-0df69d2dbd88-9d2dbd82" class="navigation-flex">
            <nav role="navigation" id="w-node-_78fd20c4-2009-a6a3-7378-0df69d2dbd89-9d2dbd82" class="nav-menu w-nav-menu">
-             <a href="index.html" aria-current="page" class="navlink w-inline-block w--current">
+           <Link to={'/'} class="navlink w-inline-block">
                <div class="text-primary">Home</div>
-             </a>
+             </Link>
              <a href="about.html" class="navlink w-inline-block">
                <div class="text-primary">About</div>
              </a>
@@ -24,9 +23,12 @@ const Header = () => {
              <a href="news.html" class="navlink w-inline-block">
                <div class="text-primary">News</div>
              </a>
-             <a href="contact.html" class="navlink w-inline-block">
-               <div class="text-primary">Contact</div>
-             </a>
+            <Link to={'/contact'} class="navlink w-inline-block"> 
+            <div class="text-primary">Contact</div>
+            </Link>
+             
+              
+           
 
              <a href="contact.html" class="navlink w-inline-block">
                <div data-node-type="commerce-cart-wrapper" data-w-id="78fd20c4-2009-a6a3-7378-0df69d2dbd9d" data-open-product="" data-wf-cart-type="rightSidebar" data-wf-cart-query="" data-wf-page-link-href-prefix="" class="w-commerce-commercecartwrapper cart">
@@ -43,10 +45,9 @@ const Header = () => {
        </div>
      </div>
      
-  
-   </div>
-
-
+  <br/>
+  <br/><br/>
+  <br/><br/>
     </>
   )
 }
