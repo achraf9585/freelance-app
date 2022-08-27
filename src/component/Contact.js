@@ -23,6 +23,32 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <div class="container ">
+        <div>
+          <div data-w-id="f85cde68-f49d-9162-f772-a88350403d59" class="social-wrapper-footer">
+            <a data-w-id="f85cde68-f49d-9162-f772-a88350403d5a" href="https://www.instagram.com/"  class="social-icon-wrapper w-inline-block">
+                <img src="https://uploads-ssl.webflow.com/623b341060c39e4dc7b99525/623c7e9fd621599df95cd867_instagram.png" loading="lazy" width="20" alt="" class="social-image"/>
+              <div class="social-overlay"></div>
+            </a>
+            <a href="https://www.twitter.com/"  class="social-icon-wrapper w-inline-block">
+                <img src="https://uploads-ssl.webflow.com/623b341060c39e4dc7b99525/623c7e9f37b44ce7ee306601_facebook.png" loading="lazy" width="20" alt="" class="social-image"/>
+              <div class="social-overlay"></div>
+            </a>
+            <a href="https://www.linkedin.com/"  class="social-icon-wrapper w-inline-block">
+                <img src="https://uploads-ssl.webflow.com/623b341060c39e4dc7b99525/623c7e9f5f08d7d3daed0dd9_linkedin.png" loading="lazy" width="18" alt="" class="social-image"/>
+              <div class="social-overlay"></div>
+            </a>
+            <a href="https://www.dribbble.com/" class="social-icon-wrapper w-inline-block">
+                <img src="https://uploads-ssl.webflow.com/623b341060c39e4dc7b99525/623c7e9f66ae86ca37aaa98c_dribbble.png" loading="lazy" width="20" alt="" class="social-image"/>
+              <div class="social-overlay"></div>
+            </a>
+            <a href="https://www.dribbble.com/"  class="social-icon-wrapper w-inline-block">
+                <img src="https://uploads-ssl.webflow.com/623b341060c39e4dc7b99525/623c7e9e6ad17ea295c46e27_twiiter.png" loading="lazy" width="20" alt="" class="social-image"/>
+              <div class="social-overlay"></div>
+            </a>
+          </div>
+        </div>
+      </div>
     <div class="page-content">
   
     <div id="Down" class="section wf-section">
