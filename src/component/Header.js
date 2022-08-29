@@ -20,9 +20,9 @@ const Header = () => {
              <a href="work.html" class="navlink w-inline-block">
                <div class="text-primary">Work</div>
              </a>
-             <a href="news.html" class="navlink w-inline-block">
+             <Link to={'/news'}  class="navlink w-inline-block">
                <div class="text-primary">News</div>
-             </a>
+             </Link>
             <Link to={'/contact'} class="navlink w-inline-block"> 
             <div class="text-primary">Contact</div>
             </Link>
