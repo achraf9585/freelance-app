@@ -6,6 +6,7 @@ const Contact = () => {
   return (
     <>
     <Header />
+    <br/><br/>
     <div data-w-id="7e7d8120-d7c4-14e4-fb4d-a38b2683785b" class="container">
         <div class="grid-2-columns">
           <div id="w-node-_5cda19f2-6a98-7624-19fd-bba2860f3747-2330f682" class="relative-div">
